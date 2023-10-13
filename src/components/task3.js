@@ -39,7 +39,7 @@ const Task3 = () => {
                 ))}
             </div>
             <div className="p-4 mx-auto">
-                <div className="mx-auto w-64 h-64 sm:w-96 sm:h-96 md:w-96 md:h-96 lg:w-96 lg:h-96 xl:w-96 xl:h-96 bg-gray-200 rounded-xl shadow-xl" style={{ backgroundColor: selectedColor }}></div>
+                <div className="mx-auto w-64 h-64 sm:w-96 sm:h-96 md:w-96 md:h-96 lg:w-96 lg:h-96 xl:w-96 xl:h-96 bg-gray-200 rounded-xl shadow shadow-black shadow-md" style={{ backgroundColor: selectedColor }}></div>
             </div>
         </div>
     );
