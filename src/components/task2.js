@@ -25,7 +25,7 @@ const Task2 = () => {
 
     return (
         <div className="bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col items-center justify-center h-screen bg-gray-100">
-            <div className="bg-white shadow-lg rounded-2xl h-full md:h-96 w-full md:w-52 overflow-hidden">
+            <div className="bg-white shadow-lg rounded-none md:rounded-2xl h-full md:h-96 w-full md:w-52 overflow-hidden">
                 <div className="bg-[#172d67] p-4 h-1/3 rounded-t-xl font-mono text-2xl text-white">{input || '0'}</div>
                 <div className="bg-[#070b26] h-2/3 rounded-b-xl grid grid-cols-4">
                     {['7', '8', '9', '/'].map((btn) => (
